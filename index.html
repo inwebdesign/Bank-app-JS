@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bank app</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div class="container" >
+		<div class="jumbotron text-center">
+			<h1>Banking accounts</h1>
+			<button class='btn btn-primary' id="accBtn">Accounts</button>
+			<button class='btn btn-success' id="addBtn">Add user</button>
+			<button  class='btn btn-danger' id="delBtn">Edit/Delete user</button>
+		</div>
+		<div class="row" id="accounts">
+			<div class="col-lg-8 col-lg-offset-2">
+				<table class="table">
+					<thead>
+						<th>ID</th>
+						<th>NAME</th>
+						<th>DEPOSITE</th>
+						<th>CARD</th>
+					</thead>
+					<tbody></tbody>
+				</table>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+			<div id="form">
+				<input type="number" placeholder="id" class="form-control" id="idUser"><br>
+				<input type="test" placeholder="name" class="form-control" id="name"><br>
+				<input type="number" placeholder="deposite" class="form-control" id="depo"><br>
+				<input type="text" placeholder="card" class="form-control" id="cCard"><br>
+				<button class="btn btn-success" id='submit'>Add user</button>
+				
+			</div>
+			
+			</div>
+		</div>
+	</div>
+	
+
+	<script src="main.js"></script>
+</body>
+</html>
